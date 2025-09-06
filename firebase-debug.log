@@ -1,0 +1,96 @@
+[debug] [2025-05-09T15:32:16.019Z] ----------------------------------------------------------------------
+[debug] [2025-05-09T15:32:16.022Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-09T15:32:16.022Z] CLI Version:   14.3.0
+[debug] [2025-05-09T15:32:16.022Z] Platform:      win32
+[debug] [2025-05-09T15:32:16.022Z] Node Version:  v22.15.0
+[debug] [2025-05-09T15:32:16.023Z] Time:          Fri May 09 2025 21:02:16 GMT+0530 (India Standard Time)
+[debug] [2025-05-09T15:32:16.023Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-09T15:32:16.176Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-09T15:32:16.176Z] > authorizing via signed-in user (sgmohankumar18@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sgmoh\Downloads\navi-bus-full-react\navi-bus
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-09T15:34:55.628Z] Using project from CLI flag: navi-bus-7d6bb
+[debug] [2025-05-09T15:34:55.630Z] Checked if tokens are valid: false, expires at: 1746805032345
+[debug] [2025-05-09T15:34:55.630Z] Checked if tokens are valid: false, expires at: 1746805032345
+[debug] [2025-05-09T15:34:55.630Z] > refreshing access token with scopes: []
+[debug] [2025-05-09T15:34:55.632Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-05-09T15:34:55.632Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-09T15:34:55.880Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-05-09T15:34:55.880Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-05-09T15:34:55.887Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/navi-bus-7d6bb [none]
+[debug] [2025-05-09T15:34:56.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/navi-bus-7d6bb 200
+[debug] [2025-05-09T15:34:56.424Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/navi-bus-7d6bb {"projectId":"navi-bus-7d6bb","projectNumber":"1083785954102","displayName":"NAVI-BUS","name":"projects/navi-bus-7d6bb","resources":{"hostingSite":"navi-bus-7d6bb"},"state":"ACTIVE","etag":"1_10c14052-d36e-4d21-b567-6083e69bfa0f"}
+[info] i  Using project navi-bus-7d6bb (NAVI-BUS) 
+[info] 
+=== Firestore Setup
+[debug] [2025-05-09T15:34:56.431Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:56.431Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:56.431Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/navi-bus-7d6bb/services/firestore.googleapis.com [none]
+[debug] [2025-05-09T15:34:56.432Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/navi-bus-7d6bb/services/firestore.googleapis.com x-goog-quota-user=projects/navi-bus-7d6bb
+[debug] [2025-05-09T15:34:58.302Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/navi-bus-7d6bb/services/firestore.googleapis.com 200
+[debug] [2025-05-09T15:34:58.302Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/navi-bus-7d6bb/services/firestore.googleapis.com [omitted]
+[debug] [2025-05-09T15:34:58.302Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:58.303Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:58.303Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/navi-bus-7d6bb/databases/(default) [none]
+[debug] [2025-05-09T15:34:58.637Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/navi-bus-7d6bb/databases/(default) 200
+[debug] [2025-05-09T15:34:58.637Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/navi-bus-7d6bb/databases/(default) {"name":"projects/navi-bus-7d6bb/databases/(default)","uid":"2c8887a5-944c-4761-b7d4-4aa4a77197cd","createTime":"2025-05-09T14:54:36.943787Z","updateTime":"2025-05-09T14:54:36.943787Z","locationId":"asia-south1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-05-09T14:54:36.943787Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"j","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IMqy6Kvblo0DMKuThqnSlo0D"}
+[debug] [2025-05-09T15:34:58.638Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-05-09T15:34:58.638Z] database_type: FIRESTORE_NATIVE
+[debug] [2025-05-09T15:34:58.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-09T15:34:58.639Z] > authorizing via signed-in user (sgmohankumar18@gmail.com)
+[debug] [2025-05-09T15:34:58.639Z] [iam] checking project navi-bus-7d6bb for permissions ["firebase.projects.get"]
+[debug] [2025-05-09T15:34:58.640Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:58.640Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:34:58.640Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/navi-bus-7d6bb:testIamPermissions [none]
+[debug] [2025-05-09T15:34:58.640Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/navi-bus-7d6bb:testIamPermissions x-goog-quota-user=projects/navi-bus-7d6bb
+[debug] [2025-05-09T15:34:58.640Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/navi-bus-7d6bb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-09T15:35:00.132Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/navi-bus-7d6bb:testIamPermissions 200
+[debug] [2025-05-09T15:35:00.132Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/navi-bus-7d6bb:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-05-09T15:36:03.308Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:36:03.309Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:36:03.310Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/releases pageSize=10&pageToken=
+[debug] [2025-05-09T15:36:03.953Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/releases 200
+[debug] [2025-05-09T15:36:03.954Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/releases {"releases":[{"name":"projects/navi-bus-7d6bb/releases/cloud.firestore","rulesetName":"projects/navi-bus-7d6bb/rulesets/9cf6c8d9-7ef2-49f0-80de-9de5289a249f","createTime":"2025-05-09T14:54:46.625421Z","updateTime":"2025-05-09T14:54:46.625421Z"}]}
+[debug] [2025-05-09T15:36:03.954Z] Found ruleset: projects/navi-bus-7d6bb/rulesets/9cf6c8d9-7ef2-49f0-80de-9de5289a249f
+[debug] [2025-05-09T15:36:03.955Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:36:03.955Z] Checked if tokens are valid: true, expires at: 1746808494880
+[debug] [2025-05-09T15:36:03.955Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/rulesets/9cf6c8d9-7ef2-49f0-80de-9de5289a249f [none]
+[debug] [2025-05-09T15:36:05.392Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/rulesets/9cf6c8d9-7ef2-49f0-80de-9de5289a249f 200
+[debug] [2025-05-09T15:36:05.392Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/navi-bus-7d6bb/rulesets/9cf6c8d9-7ef2-49f0-80de-9de5289a249f [omitted]
+[debug] [2025-05-09T15:36:05.628Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.isAbsolute (node:path:452:5)
+    at Config.path (C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:130:18)
+    at Config.writeProjectFile (C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:162:32)
+    at C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\rules.js:37:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async doSetup (C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\firestore\index.js:48:5)
+    at async init (C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+    at async Command.initAction [as actionFn] (C:\Users\sgmoh\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\init.js:187:5)
+[error] 
+[error] Error: An unexpected error has occurred.

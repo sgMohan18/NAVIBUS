@@ -1,0 +1,21 @@
+.bus-map-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.bus-map-page h2 {
+  color: #5e4b8b;
+  margin-bottom: 10px;
+}
+
+.bus-map-page p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+}

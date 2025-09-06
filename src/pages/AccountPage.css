@@ -1,0 +1,148 @@
+/* Center the account container */
+.account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #fdf9ff;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.account-heading {
+  font-size: 2rem;
+  color: #5e2b97;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Profile section */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #9d70c2;
+  animation: fadeInAvatar 1s ease;
+}
+
+@keyframes fadeInAvatar {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.avatar-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.edit-label {
+  margin-top: 10px;
+  color: #7d3bb0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Form styles */
+.form-fields {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  color: #5e2b97;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1.5px solid #d1b3ff;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #7d3bb0;
+}
+
+/* Save button */
+.save-btn {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #7d3bb0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 15px;
+}
+
+.save-btn:hover {
+  background-color: #5e2b97;
+  transform: scale(1.03);
+}
+
+.password-change-section {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.password-change-section input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.password-change-section button {
+  padding: 10px 20px;
+  background-color: #7149C6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.password-message {
+  color: green;
+  margin-top: 10px;
+}

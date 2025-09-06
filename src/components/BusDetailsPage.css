@@ -1,0 +1,117 @@
+.bus-details-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(106, 76, 156, 0.15); /* mauve shadow */
+}
+
+.bus-details-container h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #6a4c9c; /* themed heading */
+  font-weight: 700;
+}
+
+.tracker-name {
+  color: #6a4c9c; /* themed tracker text */
+  font-weight: 600;
+}
+
+.bus-instructions {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.bus-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #5a3c8c; /* mauve accent */
+}
+
+.icon {
+  margin-right: 5px;
+  color: #6a4c9c;
+}
+
+.bus-form input[type="text"],
+.bus-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.stop-input-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stop-input-row input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #e60000;
+}
+
+.add-stop-btn {
+  background-color: #6a4c9c; /* themed add button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.2s;
+}
+
+.add-stop-btn:hover {
+  background-color: #5a3c8c; /* hover mauve */
+}
+
+.timing-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #6a4c9c, #5a3c8c); /* gradient submit */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #5a3c8c, #6a4c9c);
+}

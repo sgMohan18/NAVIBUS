@@ -1,0 +1,16 @@
+.footer {
+    background-color: #f3e5f5;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    color: #4a148c;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section p {
+    margin: 0.5rem 0;
+  }
+  

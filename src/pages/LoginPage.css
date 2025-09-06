@@ -1,0 +1,59 @@
+/* Login Page Styling */
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f0fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5e3f76;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #5e3f76;
+  font-size: 1.1rem;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5e3f76;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #7c5c9e;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
