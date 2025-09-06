@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+🚌 NAVI BUS
+A modern bus tracking and route planner web application built with React, Firebase, and Leaflet.
+NAVI BUS helps users easily plan their journey, track buses, and navigate smarter without waiting endlessly at the bus stop.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✨ Features
+✅ User Authentication – Secure login/signup using Firebase Auth
+✅ Admin Tracker Login – Manage and track buses with special privileges
+✅ Route Planner – Search buses by entering source and destination stops
+✅ Interactive Maps – View bus routes and stops with live map integration
+✅ Account Page – Manage user profile with editable details and profile picture upload
+✅ Bus Details (Admin) – Add and manage bus timings, routes, and stop details
+✅ Contact Us – Send us a message and connect via social media
+✅ Responsive UI – Clean, modern interface with mobile-friendly design
 
-## Available Scripts
 
-In the project directory, you can run:
+🛠️ Tech Stack
+Frontend: React, React Router, Tailwind CSS, Leaflet (for maps)
+Backend / Database: Firebase Firestore, Firebase Storage
+Authentication: Firebase Auth
+Deployment: Works with Vercel / Netlify / Firebase Hosting
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📸 Screenshots
+🔹 Home Page
+(Logo, sticky header, login, features, cities, footer)
+🔹 Route Planner
+(Search buses by source and destination)
+🔹 Map Integration
+(View selected bus route and stops interactively)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone-- https://github.com/sgMohan18/NAVIBUS
+cd NAVIBUS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2️⃣ Install dependencies:
+npm install
 
-### `npm run build`
+3️⃣ Set up Firebase:
+1.Create a Firebase project at Firebase Console
+2.Enable Authentication (Email/Password)
+3.Enable Firestore Database
+4.Enable Storage (for profile pictures)
+5.Copy your Firebase config into App.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4️⃣ Run the app:
+npm start,
+App will be available at 👉 http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👨‍💻 Author
+MohanaKumar Sugavasan
+🎓 B.E ECE Graduate (2025) | 💻 Passionate about Web Development
+Skilled in Java, Advanced Java, SQL, JDBC, Servlets
+Strong interest in Frontend Technologies (HTML, CSS, JavaScript, React)
 
-### `npm run eject`
+📬 Contact
+📧 Email: sgmohan1820@gmail.com
+🌐 Portfolio: your-portfolio-link
+🐙 GitHub: https://github.com/sgMohan18
+🔗 LinkedIn: www.linkedin.com/in/mohanakumar18
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✨ Why wait at the bus stop ever again? Plan smarter with NAVI BUS!
